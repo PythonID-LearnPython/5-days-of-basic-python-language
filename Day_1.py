@@ -1,10 +1,4 @@
-# Day 2: While Loops - Countdown timer
-import time
-
-countdown = 5
-while countdown > 0:
-    print(f"⏳ {countdown} second ...")
-    time.sleep(1)
-    countdown -= 1
-
-print("🕒 Time's up!")
+# Day 1: For Loops
+rows = 5
+for i in range(1, rows + 1):
+    print(' ' * (rows - i) + '*' * (2 * i - 1))
